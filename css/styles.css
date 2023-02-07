@@ -1,0 +1,29 @@
+.navbar img {
+    max-height: 160px;
+    max-width: 160px;
+}
+
+.nav-link {
+    color: #243e9b !important;
+}
+
+.navbar-nav > .active > a {
+    color: #878787 !important;
+    /* background-color: #878787;     */
+  }
+  .nav-item > a:hover {
+    color: #878787 !important;
+  }
+
+.footer {
+    border-top: 1px #878787 solid;
+    background-color: #24252a !important;
+}
+.ric-logo {
+    max-height: 130px;
+    max-width: 130px;
+}
+
+.copy-right {
+    margin-left: 220px !important;
+}
