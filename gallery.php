@@ -123,13 +123,13 @@
                       // echo '<div class="thumbnail" data-name="'.$whatIWant.'">
                       //   <div class="image" data-name="'.$whatIWant.'"><span><img src="'.$image.'" alt="" /></span></div>
                       // </div>';
-                      echo '<div class=" thumbnail image" data-name="'.$whatIWant.'"><span><img src="'.$image.'" alt=""></span></div>';
+                      echo '<div class=" thumbnail image" data-name="'.$whatIWant.'"><span><img src="'.$image.'" loading="lazy" alt=""></span></div>';
                   } else {
                       // Portrait or Square
                       // echo '<div class="thumbnail" data-name="'.$whatIWant.'">
                       //   <div class="image" data-name="'.$whatIWant.'"><span><img src="'.$image.'" class="portrait" alt="" /></span></div>
                       // </div>';
-                      echo '<div class=" thumbnail image" data-name="'.$whatIWant.'"><span><img  class="portrait" src="'.$image.'" alt=""></span></div>';
+                      echo '<div class=" thumbnail image" data-name="'.$whatIWant.'"><span><img  class="portrait" src="'.$image.'" loading="lazy" alt=""></span></div>';
                   }
                   //echo '<div class=" thumbnail image" data-name="'.$whatIWant.'"><span><img src="'.$image.'" alt=""></span></div>';
                 }

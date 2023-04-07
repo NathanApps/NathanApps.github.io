@@ -86,7 +86,70 @@
             We may use third-party Service Providers to monitor and analyze the use of our Service.<br/>
             </p>
             <br/>
-            <div class="row">
+            <div class="container">
+              <div class="row">
+              <div class="col-sm-4">
+              <h3>Contact Us</h3>
+              <hr>
+              <address>
+              <strong>Opening Hours: <br/>Monday-Satruday<br/>
+                9am to 6pm</strong><br/><br/>
+              <strong>Email:</strong><a href="mailto:#"> oystersurveyors@gmail.com</a><br><br>
+              <strong>Phone:</strong><a href="tel:01227772345">
+                01227 772345
+                </a>
+              </address>
+              </div>
+                  
+              <div class="col-sm-8 contact-form">
+              <form id="contact" method="post" class="form" role="form">
+              <div class="row">
+              <div class="col-xs-6 col-md-6 form-group">
+              <input class="form-control" id="name" name="name" placeholder="Name*" type="text" required autofocus />
+              </div>
+              <div class="col-xs-6 col-md-6 form-group">
+              <input class="form-control" id="email" name="email" placeholder="Email*" type="email" required />
+              </div>
+              </div>
+              <div class="row">
+              <div class="col-xs-6 col-md-6 form-group">
+                <select id="surveryType" name="surveryType" class="form-control" required="required"  onChange={this.changesurveryType.bind(this)}  value="">
+                  <option value="na" selected="">Choose Type of survey:</option>
+                  <option value="LevelOne">Level 1</option>
+                  <option value="LeveTwo">Level 2</option>
+                  <option value="LevelThree">Level 3</option>
+                </select>
+            </div>
+            <div class="col-xs-6 col-md-6 form-group">
+              <select id="propertyType" name="propertyType" class="form-control" required="required"  onChange={this.changePropertyType.bind(this)}  value="">
+                  <option value="na" selected="">Choose Property Type:</option>
+                  <option value="Residential">Residential</option>
+                  <option value="Detached">Detached</option>
+                  <option value="Semi Detached">Semi Detached</option>
+                  <option value="Bungalow">Bungalow</option>
+                  <option value="Bungalow">Bungalow</option>
+                  <option value="Flat">Flat</option>
+                  <option value="Commercial">Commercial</option>
+              </select>
+          </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-6 col-md-6 form-group">
+                <input class="form-control" id="noBedrooms" name="noBedrooms" placeholder="No of Bedrooms*" type="text" required />
+                </div>
+                <div class="col-xs-6 col-md-6 form-group">
+                <input class="form-control" id="AgreedPP" name="AgreedPP" placeholder="Agreed purchase price*" type="text" required />
+              </div>
+            </div>
+              <textarea class="form-control" id="message" name="message" placeholder="Enquiry*" rows="5"></textarea>
+              <br />
+              <div class="row">
+              <div class="col-xs-12 col-md-12 form-group">
+              <button class="btn btn-primary pull-right" type="submit">Submit</button>
+              </form>
+              </div>
+              </div>
+            <!-- <div class="row">
                 <div class="col-md-8">
                     <div class="well well-sm">
                         <form id="contactForm" onSubmit={this.handleSubmit}>
@@ -162,8 +225,8 @@
                     <legend><span class="glyphicon glyphicon-globe"></span> Our office</legend>
                     <address>
                         <strong>Oyster Property Surveyors</strong><br/>
-                        Opening Hours: <br/>Monday-Friday<br/>
-                        9am to 5pm<br/>
+                        Opening Hours: <br/>Monday-Satruday<br/>
+                        9am to 6pm<br/>
                         <abbr title="Phone">
                             Tel:</abbr>
                             <a href="tel:01227772345">
@@ -182,7 +245,7 @@
                     </address>
                     </form>
                 </div>
-            </div>
+            </div> -->
         </div>
 
         <!-- /END THE FEATURETTES -->
